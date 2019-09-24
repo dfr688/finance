@@ -1,0 +1,124 @@
+.home{
+	height: 100%;
+	padding-bottom: 1.3rem;
+	box-sizing: border-box;
+	overflow: hidden;
+}
+.home .top{
+	width: 100%;
+	height: 4.53rem;
+	background: url(../images/home/bg.png) no-repeat left top;
+	background-size: 100%;
+}
+.home .top input{
+	width: 4.34rem;
+	height: .8rem;
+	background: #fff;
+	border-radius: .29rem;
+	font-size: .3rem;
+	text-align: center;
+	line-height: .8rem;
+	padding: 0 .2rem;
+	margin-left: .2rem;
+}
+.home .options{
+	margin: 0 .3rem;
+	margin-top: -.4rem;
+	padding: .3rem 0;
+	background-color: #fff;
+	box-shadow: 2px 3px 16px 0px rgba(3, 0, 0, 0.24);
+	border-radius: .08rem;
+}
+.home .options ul{
+	display: flex;
+}
+.home .options ul li{
+	flex: 1;
+	font-size: .28rem;
+	text-align: center;
+}
+.home .options ul li a{
+	color: #333;
+	display: inline-block;
+}
+.home .options ul li a span{
+	display: inline-block;
+	width: .93rem;
+	height: .93rem;
+}
+.home .options ul .option_one a span{
+	background: url(../images/home/option_one.png) no-repeat left top;
+	background-size: 100%;
+}
+.home .options ul .option_two a span{
+	background: url(../images/home/option_two.png) no-repeat left top;
+	background-size: 100%;
+}
+.home .options ul .option_three a span{
+	background: url(../images/home/option_three.png) no-repeat left top;
+	background-size: 100%;
+}
+.home .list{
+	margin: 0 .3rem;
+	margin-top: .4rem;
+}
+.home .list p{
+	color: #212121;
+	font-size: .28rem;
+}
+.home .list p i{
+	display: inline-block;
+	width: .14rem;
+	height: .25rem;
+	background: url(../images/home/thick_line.png) no-repeat left top;
+	background-size: 100%;
+	margin-right: .15rem;
+}
+.home .list ul{
+	background: #eee;
+	border-radius: .1rem;
+	margin-top: .2rem;
+}
+.home .list ul li{
+	padding: .24rem 0;
+	height: .42rem;
+	line-height: .42rem;
+}
+.home .list ul li a{
+	display: flex;
+	font-size: .26rem;
+	color: #585858;
+}
+.home .list ul li a .left{
+	flex: 1;
+	text-align: center;
+}
+.home .list ul li a .left i{
+	display: inline-block;
+	width: .36rem;
+	height: .36rem;
+	margin-bottom: -.08rem;
+	font-style: normal;
+	border: 1px solid #979797;
+	border-radius: .6rem;
+	text-align: center;
+	line-height: .36rem;
+}
+.home .list ul li a .middle{
+	flex: 4;
+	white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+.home .list ul li a .right{
+	flex: 1;
+	text-align: center;
+}
+.home .list ul li a .right i{
+	display: inline-block;
+	width: .13rem;
+	height: .24rem;
+	background: url(../images/home/rocket.png) no-repeat left top;
+	background-size: 100%;
+	margin-bottom: -.05rem;
+}

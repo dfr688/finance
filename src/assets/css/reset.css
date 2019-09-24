@@ -1,0 +1,97 @@
+body, h1, h2, h3, h4, h5, h6, hr, p, blockquote, dl, dt, dd, ul, ol, li,
+ pre, form, fieldset, legend, button, input, textarea, th, td ,tr{ 
+	margin: 0; 
+	padding: 0;
+}
+html{
+	height: 100%;
+}
+#app{
+	height: 100%;
+}
+
+body{
+	font-family: PingFang SC Medium;
+	background: #fff; 
+	color: #333;
+	width: 100%;
+	height: 100%;
+	-webkit-user-select:none;  /*系统默认菜单被禁用*/   
+	user-select:none;  /*用户是否能够选中文本*/ 
+}
+img{
+	pointer-events: none;/* 禁止长按图片出现手机自带菜单 */
+}
+*{
+	-webkit-tap-highlight-color:rgba(0,0,0,0);
+	-webkit-tap-highlight-color: transparent;
+	outline:none;
+	background: none;
+}
+/* a{
+    text-decoration: none;
+} */
+/* 去掉a标签点击时的背景色 */
+/* a:hover{
+    -webkit-tap-highlight-color: transparent;
+} */
+a,a:hover,a:active,a:visited,a:link,a:focus{
+    -webkit-tap-highlight-color:rgba(0,0,0,0);
+    -webkit-tap-highlight-color: transparent;
+    outline:none;
+    background: none;
+    text-decoration: none;
+}
+ul{
+    list-style: none;
+}
+.fl{
+	float: left;
+}
+.fr{
+	float: right;
+}
+.clearfix:after {
+ 	content: ''; 
+ 	display: block; 
+ 	height: 0; 
+ 	clear: both; 
+ }
+input,button{
+	border: none;
+	outline: none;
+}
+button{
+	background: none;
+}
+textarea{
+	border: none;
+	outline: none;
+}
+
+.text .swiper-container{
+	width: 100%;
+}
+.swiper-wrapper .swiper-wrapper{
+	width: 100%!important;
+}
+
+/* 加载 */
+.orderPractice .release{
+	font-size: .3rem;
+}
+.orderPractice .data-none{
+	font-size: .3rem;
+	text-align: center;
+	padding: .2rem 0;
+}
+.orderPractice .mint-loadmore-text{
+	font-size: .3rem;
+}
+
+.v-modal{
+	opacity: 0.15!important;
+}
+.mint-popup{
+	border-radius: .2rem;
+}

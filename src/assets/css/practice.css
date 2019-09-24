@@ -1,0 +1,133 @@
+.text{
+	/* width: 7.5rem; */
+	height: auto;
+}
+.practice{
+	/* height: 100%; */
+}
+.practice .top{
+	display: flex;
+	margin: 0 .2rem;
+	padding-top: .3rem;
+}
+.practice .top div{
+	flex: 1;
+}
+.practice .top div:last-child{
+	text-align: right;
+}
+.practice .top div i{
+	display: inline-block;
+	width: .21rem;
+	height: .43rem;
+	background: url(../images/public/back.png) no-repeat left top;
+	background-size: 100%;
+}
+.practice .top div span{
+	display: inline-block;
+	width: .41rem;
+	height: .41rem;
+	background: url(../images/public/star.png) no-repeat left top;
+	background-size: 100%;
+}
+.practice .top div span.active{
+	background: url(../images/public/star_active.png) no-repeat left top;
+	background-size: 100%;
+}
+.practice .questions{
+	width: 6.3rem;
+	margin: 0 auto;
+	font-size: .3rem;
+}
+.practice .questions .title{
+	font-weight: bold;
+	padding: .6rem 0 1rem 0;
+}
+.practice .questions ul li{
+	background-color: #eee;
+	border-radius: .06rem;
+	margin-bottom: .2rem;
+	padding: .4rem;
+	box-sizing: border-box;
+	position: relative;
+}
+.practice .questions ul li i{
+	display: inline-block;
+	width: .52rem;
+	height: .35rem;
+	background: url(../images/public/right.png) no-repeat left top;
+	background-size: 100%;
+	position: absolute;
+	left: .3rem;
+	top: .4rem;
+}
+.practice .questions ul li span{
+	display: inline-block;
+	width: .36rem;
+	height: .36rem;
+	background: url(../images/public/wrong.png) no-repeat left top;
+	background-size: 100%;
+	position: absolute;
+	left: .3rem;
+	top: .4rem;
+}
+.practice .questions .analys{
+	text-align: right;
+	font-size: .24rem;
+	margin-top: .88rem;
+}
+.practice .questions .analys span{
+	display: inline-block;
+	width: 1.37rem;
+	height: .64rem;
+	line-height: .64rem;
+	background-color: #eee;
+	border-radius: .1rem;
+	text-align: center;
+	position: relative;
+}
+.practice .questions .analys span i{
+	display: inline-block;
+	width: .29rem;
+	height: .26rem;
+	background: url(../images/public/tip.png) no-repeat left top;
+	background-size: 100%;
+	position: absolute;
+	top: -.1rem;
+	right: 0;
+}
+.practice .questions .thinking{
+	width: 6.18rem;
+	margin: 0 auto;
+	margin-top: .88rem;
+	font-size: .28rem;
+}
+.practice .questions .thinking .tit{
+	text-align: center;
+	font-size: .3rem;
+	margin-bottom: .6rem;
+	position: relative;
+}
+.practice .questions .thinking .tit i{
+	display: inline-block;
+	width: .29rem;
+	height: .26rem;
+	background: url(../images/public/tip.png) no-repeat left top;
+	background-size: 100%;
+	position: absolute;
+	top: -.1rem;
+	right: 2.3rem;
+}
+.practice .questions .thinking .content p{
+	padding-bottom: .1rem;
+}
+
+.questionDetail{
+	height: 100%;
+}
+
+/* 删除 */
+.practice_delete{
+	background: url(../images/my/cross.png) no-repeat left top!important;
+	background-size: 100%!important;
+}
